@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../icofont/icofont.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <title>Document</title>
+    <style>
+        .mother-container{
+            display: flex;
+            flex-wrap: wrap;
+            /* width: 700px; */
+            border: 2px solid black;
+        }
+        .children{
+            width: 200px;
+            min-width: 300px;
+            height: 200px;
+            border-radius: 10px;
+            background-color: tomato;
+            margin: 5px;
+        }
+        .children p{
+            animation: flash 3s;
+        }
+        .children:nth-child(10){
+            background-color: teal;
+            overflow: auto;
+        }
+        .children:nth-child(10)::-webkit-scrollbar{
+            visibility: hidden;
+        }
+        p:last-child{
+            color: red;
+        }
+        .google{
+            width: fit-content;
+            border: 1px solid lightgrey;
+            border-radius: 20px;
+            padding: 0 20px;
+            margin: auto;
+            position: relative;
+        }
+        .google:focus-within{
+            border-radius: 20px 20px 0 0;
+        }
+        .google input{
+            border: none;
+            outline: none;
+            width: 400px;
+            height: 40px;
+        }
+        .google-dropdown{
+            position: absolute;
+            left: 0;
+            background-color: #fff;
+            width: 100%;
+            display: none;
+            border-radius: 0 0 20px 20px;
+            border: 1px solid lightgrey;
+            border-top: 1px solid#fff;
+        }
+        .google:focus-within .google-dropdown{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="google">
+        <i class="icofont-search-1"></i>
+        <input type="text">
+        <i class="icofont-mic"></i>
+        <div class="google-dropdown">
+            <p>
+                <i class="icofont-clock"></i>
+                <span>Recent Search</span>
+            </p>
+            <p>
+                <i class="icofont-clock"></i>
+                <span>Recent Search</span>
+            </p>
+            <p>
+                <i class="icofont-clock"></i>
+                <span>Recent Search</span>
+            </p>
+            <p>
+                <i class="icofont-clock"></i>
+                <span>Recent Search</span>
+            </p>
+        </div>
+    </div>
+    <div class="mother-container">
+        <div class="children">
+            <p class="animate__animated animate__bounce">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam dignissimos quo ex velit modi iusto numquam nemo nobis deleniti a, enim unde exercitationem fugit voluptate tempore, earum, reiciendis dicta error.</p>
+        </div>
+        <div class="children">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam dignissimos quo ex velit modi iusto numquam nemo nobis deleniti a, enim unde exercitationem fugit voluptate tempore, earum, reiciendis dicta error.</p>
+        </div>
+        <div class="children">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam dignissimos quo ex velit modi iusto numquam nemo nobis deleniti a, enim unde exercitationem fugit voluptate tempore, earum, reiciendis dicta error.</p>
+        </div>
+        <div class="children">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam dignissimos quo ex velit modi iusto numquam nemo nobis deleniti a, enim unde exercitationem fugit voluptate tempore, earum, reiciendis dicta error.</p>
+        </div>
+        <div class="children">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam dignissimos quo ex velit modi iusto numquam nemo nobis deleniti a, enim unde exercitationem fugit voluptate tempore, earum, reiciendis dicta error.</p>
+        </div>
+        <div class="children">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam dignissimos quo ex velit modi iusto numquam nemo nobis deleniti a, enim unde exercitationem fugit voluptate tempore, earum, reiciendis dicta error.</p>
+        </div>
+        <div class="children">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam dignissimos quo ex velit modi iusto numquam nemo nobis deleniti a, enim unde exercitationem fugit voluptate tempore, earum, reiciendis dicta error.</p>
+        </div>
+        <div class="children">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam dignissimos quo ex velit modi iusto numquam nemo nobis deleniti a, enim unde exercitationem fugit voluptate tempore, earum, reiciendis dicta error.</p>
+        </div>
+        <div class="children">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam dignissimos quo ex velit modi iusto numquam nemo nobis deleniti a, enim unde exercitationem fugit voluptate tempore, earum, reiciendis dicta error.</p>
+        </div>
+        <div class="children">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam dignissimos quo ex velit modi iusto numquam nemo nobis deleniti a, enim unde exercitationem fugit voluptate tempore, earum, reiciendis dicta error.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam dignissimos quo ex velit modi iusto numquam nemo nobis deleniti a, enim unde exercitationem fugit voluptate tempore, earum, reiciendis dicta error.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam dignissimos quo ex velit modi iusto numquam nemo nobis deleniti a, enim unde exercitationem fugit voluptate tempore, earum, reiciendis dicta error.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam dignissimos quo ex velit modi iusto numquam nemo nobis deleniti a, enim unde exercitationem fugit voluptate tempore, earum, reiciendis dicta error.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam dignissimos quo ex velit modi iusto numquam nemo nobis deleniti a, enim unde exercitationem fugit voluptate tempore, earum, reiciendis dicta error.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam dignissimos quo ex velit modi iusto numquam nemo nobis deleniti a, enim unde exercitationem fugit voluptate tempore, earum, reiciendis dicta error.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam dignissimos quo ex velit modi iusto numquam nemo nobis deleniti a, enim unde exercitationem fugit voluptate tempore, earum, reiciendis dicta error.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam dignissimos quo ex velit modi iusto numquam nemo nobis deleniti a, enim unde exercitationem fugit voluptate tempore, earum, reiciendis dicta error.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam dignissimos quo ex velit modi iusto numquam nemo nobis deleniti a, enim unde exercitationem fugit voluptate tempore, earum, reiciendis dicta error.</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap-5.2.0-beta1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../icofont/icofont.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <main class="">
+        <nav class="navbar bg-transparent position-sticky top-0 border-bottom border-dark">
+            <a href="#" class="navbar-brand">
+                <img class="w-50" src="medium-logo.png" alt="">
+            </a>
+            <ul class="nav">
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-dark d-none d-md-block">Our Story</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-dark d-none d-md-block">Membership</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-dark d-none d-md-block">Write</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-dark d-none d-md-block">Sign In</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link btn btn-dark text-white rounded-pill">Get Started</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="container-fluid bg-warning">
+            <div class="container">
+                <div class="row py-5">
+                    <div class="col-7">
+                        <h1 class="display-1 fw-bold">Stay curious.</h1>
+                        <p class="text-secondary display-5">Discover stories, thinking, and expertise from writers on any topic.</p>
+                        <button class="btn btn-dark rounded-pill px-5">Start Reading</button>
+                    </div>
+                    <div class="col">
+                       <img class="w-100" src="m-logo.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Home</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Profile</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Contact</button>
+            </li>
+          </ul>
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                <h1 class="text-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia voluptatem explicabo exercitationem earum? Cum at necessitatibus eius quam sapiente quo unde magni rerum, eum aliquid corrupti, praesentium exercitationem! Ab, illo.</h1>    
+            </div>
+            <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                <h1 class="text-danger">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id impedit fugiat debitis cupiditate dolorum porro maiores dolores pariatur obcaecati enim, amet, reprehenderit ea nisi ipsam repellendus dolore sint eaque laborum.</h1>
+            </div>
+            <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+                <h1 class="text-warning">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi porro harum eum blanditiis odio maxime iure at iusto molestiae similique quidem ipsam, nulla aut quam placeat quibusdam numquam corporis debitis!</h1>
+            </div>
+          </div>
+          
+        <div class="accordion accordion-flush w-25 position-fixed end-0 bottom-0" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Accordion Item #1
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+              </div>
+            </div>
+          </div>
+        <div class="card w-50 p-3 mx-auto my-3 shadow">
+            <form action="">
+                <h1 class="text-primary text-center">Login</h1>
+                <div class="form-group">
+                    <label for="fName">First Name</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="lName">Last Name</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="fName">Email</label>
+                    <input type="email" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control">
+                </div>
+                <div class="form-group">
+                    <input class="form-check-input" type="checkbox">
+                    <small>Agree to terms and conditions</small>
+                </div>
+                <button class="btn btn-success fs-3 fw-bold">
+                    Submit
+                    <div class="spinner-border text-warning"></div>
+                </button>
+            </form>
+        </div>
+        <div id="demo" class="carousel slide bg-secondary" data-bs-ride="carousel">
+
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+          
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="serverless.png" alt="Los Angeles" class="d-block w-100">
+              </div>
+              <div class="carousel-item">
+                <img src="tt.jpg" alt="Chicago" class="d-block w-100">
+              </div>
+              <div class="carousel-item">
+                <img src="medium-logo.png" alt="New York" class="d-block w-100">
+              </div>
+            </div>
+          
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+        <div class="dropdown position-static">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+              Dropdown button
+            </button>
+            <div class="dropdown-menu position-absolute w-50">
+                <div class="d-flex justify-content-evenly">
+                    <ul class="navbar-nav">
+                        <li><a href="#">Link 1</a></li>
+                        <li><a href="#">Desktop</a></li>
+                        <li><a href="#">Link 3</a></li>
+                      </ul>
+                    <ul>
+                        <li><a href="#">Desktop</a></li>
+                        <li><a href="#">Link 2</a></li>
+                        <li><a href="#">Link 3</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div>
+            <input type="text" name="" id="">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+            <i class="icofont-search-1"></i>
+            </button>
+            <div class="modal" id="myModal">
+                <div class="modal-dialog position-static">
+                  <div class="modal-content position-absolute w-100">
+              
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                      <h4 class="modal-title">Modal Heading</h4>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+              
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                      Modal body..
+                    </div>
+              
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    </div>
+              
+                  </div>
+                </div>
+              </div>
+        </div>
+        
+          
+          <!-- The Modal -->
+          
+        <div class="container-fluid">
+            <div class="container">
+                <h4>TRENDING ON MEDIUM</h4>
+
+                <div class="d-flex flex-wrap">
+                    <div class="d-flex bg-secondary px-4">
+                        <div>01</div>
+                        <div class="ms-4">
+                            <img class="w-25 rounded-circle" src="tt.jpg" alt="">
+                            <span>Barack Obama</span>
+                            <h5>My 2022 Summer Lists</h5>
+                            <small>Jul 26
+                                ·
+                                3 min read</small>
+                        </div>
+                    </div>
+                    <div class="d-flex  px-4">
+                        <div>02</div>
+                        <div class="ms-4">
+                            <img class="w-25 rounded-circle" src="tt.jpg" alt="">
+                            <span>Barack Obama</span>
+                            <h5>My 2022 Summer Lists</h5>
+                            <small>Jul 26
+                                ·
+                                3 min read</small>
+                        </div>
+                    </div>
+                    <div class="d-flex  px-4">
+                        <div>03</div>
+                        <div class="ms-4">
+                            <img class="w-25 rounded-circle" src="tt.jpg" alt="">
+                            <span>Barack Obama</span>
+                            <h5>My 2022 Summer Lists</h5>
+                            <small>Jul 26
+                                ·
+                                3 min read</small>
+                        </div>
+                    </div>
+                    <div class="d-flex  px-4">
+                        <div>04</div>
+                        <div class="ms-4">
+                            <img class="w-25 rounded-circle" src="tt.jpg" alt="">
+                            <span>Barack Obama</span>
+                            <h5>My 2022 Summer Lists</h5>
+                            <small>Jul 26
+                                ·
+                                3 min read</small>
+                        </div>
+                    </div>
+                    <div class="d-flex  px-4">
+                        <div>05</div>
+                        <div class="ms-4">
+                            <img class="w-25 rounded-circle" src="tt.jpg" alt="">
+                            <span>Barack Obama</span>
+                            <h5>My 2022 Summer Lists</h5>
+                            <small>Jul 26
+                                ·
+                                3 min read</small>
+                        </div>
+                    </div>
+                    <div class="d-flex  px-4">
+                        <div>06</div>
+                        <div class="ms-4">
+                            <img class="w-25 rounded-circle" src="tt.jpg" alt="">
+                            <span>Barack Obama</span>
+                            <h5>My 2022 Summer Lists</h5>
+                            <small>Jul 26
+                                ·
+                                3 min read</small>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+    </main>
+    <script src="../bootstrap-5.2.0-beta1-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
